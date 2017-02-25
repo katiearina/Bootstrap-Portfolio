@@ -4,9 +4,10 @@
 <head>
     <meta charset="UTF-8">
     <title>Katie Geckle - Contact</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+    <script src="https://use.fontawesome.com/0a2ce55563.js"></script>
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
 
@@ -15,36 +16,72 @@
     <nav class="navbar navbar-default">
         <div class="container">
             <div class="navbar-header">
-                <a class="navbar-brand">Katie Geckle</a>
+                <a class="navbar-brand" id="navbar-logo">Katie Geckle</a>
             </div>
-            <ul class="nav navbar-nav navbar-right">
-                <li><a href="index.html">About</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li><a href="contact.html">Contact</a></li>
+            <ul class="nav navbar-nav navbar-right list-inline" id="navbar-menu">
+                <li class="list-inline-item"><a href="index.html">About</a></li>
+                <li class="list-inline-item"><a href="portfolio.html">Portfolio</a></li>
+                <li class="list-inline-item"><a href="contact.html">Contact</a></li>
             </ul>
         </div>
     </nav>
 
     <div class="container">
         <div class="row">
-            <div class="col-lg-2">
+            <div class="col-lg-1 col-md-1">
             <!-- Blank -->
             </div>
-            <div class="col-lg-5">
-				<p>Woke intelligentsia keffiyeh, coloring book scenester pinterest chia succulents pitchfork mumblecore knausgaard. Hammock humblebrag man braid, cornhole letterpress VHS truffaut franzen knausgaard activated charcoal jianbing yuccie gentrify tacos banjo. Austin kitsch offal, pop-up blog tilde fanny pack viral. Intelligentsia heirloom viral irony before they sold out, gochujang brunch tote bag put a bird on it neutra mixtape knausgaard. Ethical bitters live-edge 8-bit. Salvia poutine letterpress, fingerstache 8-bit cliche microdosing kogi hashtag. Meggings helvetica normcore distillery.</p>
+            <div class="col-lg-6 col-md-6" id="container-content">
+                <legend>About Me</legend>
+                <img class="img-responsive img-rounded gap-right pull-left" id ="profile-pic" src="./assets/images/KG-Profile.jpg" alt="Profile Photo!" width="250" height="324"> 
+				<p>Hello! My name is Katie (well, technically it's Katarina) and I live in Durham, North Carolina. I grew up on a farm in northern Maryland (only a half-mile from Pennsylvania!), spent nine years living in Portland, Oregon, and returned to the east coast in early 2014 to see what the South had to offer.</p>
+                
+                <p>I have driven across the country five times, have two Oregon-born cats, and like to spend my free time eating spicy foods and fixing up my house (some photos can be found under the <a href="https://www.instagram.com/explore/tags/cutehouseiscute/" target="_blank">#cutehouseiscute</a> tag on Instagram). Some of my favorite things to do in Durham are to go hiking on the Eno and explore new breweries.</p>
+                
+                <p>I am a firm believer that sunshine can pretty much always cure what ails me, love to talk DIY and hot sauce preferences, and am interested in learning how to brew kombucha. One of my favorite new discoveries while learning web development is how many ipsum varieties exist out in the world; my two favorites so far are <a href="https://hipsum.co/" target="_blank">Hipster Ipsum</a> and <a href="https://cah.hipsum.co/" target="_blank">Cards Against Humanity Ipsum</a>.</p>
+                
+                <p>If you'd like to say hello (or if you have a SCOBY you'd like me to take off your hands!), please send me <a href="contact.html">a message</a>.</p>
 
-				<p>Ennui cronut 8-bit normcore heirloom. Beard mixtape vape seitan +1. Synth chia fingerstache fixie migas tattooed. Subway tile banh mi echo park, tousled franzen plaid iPhone chambray tilde cardigan portland tumeric. Helvetica cornhole marfa tbh literally. Lyft crucifix keytar, unicorn polaroid readymade master cleanse kitsch pug blue bottle kale chips. Church-key tofu lumbersexual, hot chicken forage cronut disrupt 8-bit everyday carry whatever enamel pin.</p>
+                <blockquote class="blockquote-reverse">"Ah listen to me young Leander, young Hero, young Alexander. If you dare nothing, then when the day is over, nothing is all you will have gained."
+                - Nehemiah Trot, <em>The Graveyard Book</em> (Neil Gaiman)</blockquote>
 
-				<p>Kombucha paleo meggings poke, humblebrag tumeric thundercats edison bulb. Pitchfork small batch paleo chia, mustache hoodie mixtape. Hell of migas subway tile, iPhone stumptown 90's blog tote bag kitsch viral. Sriracha keffiyeh selfies pabst, biodiesel hella poke fashion axe bitters. Four dollar toast normcore kickstarter tote bag kombucha, hell of williamsburg fingerstache artisan mumblecore. Forage try-hard YOLO, chambray street art pug tumeric leggings. Sartorial poutine readymade, VHS forage asymmetrical salvia plaid before they sold out.</p>
-
-				<p>Stumptown fingerstache fap succulents copper mug, chicharrones prism master cleanse echo park hammock. Helvetica celiac freegan tousled small batch mumblecore. Tattooed chartreuse XOXO hammock, PBR&B single-origin coffee stumptown wolf DIY kale chips affogato. Pinterest williamsburg quinoa fanny pack offal subway tile artisan yr XOXO, man bun air plant neutra hell of YOLO. Retro you probably haven't heard of them twee cliche meggings, church-key small batch narwhal asymmetrical DIY kombucha enamel pin chicharrones tote bag XOXO. Blog 8-bit wolf, disrupt fashion axe cold-pressed iPhone umami locavore shoreditch. Keytar bicycle rights heirloom fap yr four loko.</p>
             </div>
-            <div class="col-lg-2" id="connect">Ahoy!
-            </div>
-            <div class="col-lg-1">
+            <div class="col-lg-1 col-md-1">
             <!-- Blank -->
             </div>
-            <div class="col-lg-2">
+            <div class="col-lg-3 col-md-3" id="connect">
+
+                <div class="panel-heading">Connect with Me!
+                </div>
+                <div class="panel-body">
+
+                    <a href="https://github.com/katiearina/" target="_blank">
+                        <span class="fa-stack fa-lg fa-2x">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/katie-geckle/" target="_blank">
+                        <span class="fa-stack fa-lg fa-2x">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </i>
+                    </a>
+                    
+                    <a href="http://stackoverflow.com/users/7352062/katie-geckle" target="_blank">
+                        <span class="fa-stack fa-lg fa-2x">
+                        <i class="fa fa-circle fa-stack-2x"></i>
+                        <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
+                        </span>
+                        </i>
+                    </a>
+
+                </div>
+
+            </div>
+            <div class="col-lg-1 col-md-1">
             <!-- Blank -->
             </div>
         </div>
