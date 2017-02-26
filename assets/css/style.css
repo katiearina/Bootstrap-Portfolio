@@ -1,11 +1,14 @@
+/* Set for footer */
 html, body {
 	height: 100%;
 }
 
+/* Background page color */
 body {
 	background-color: lightsalmon;
 }
 
+/* Main navbar color/styling */
 .navbar {
 	background-color: lightpink;
 	border-style: none;
@@ -14,31 +17,35 @@ body {
 	border-color: black;
 }
 
+/* Main logo/brand styling */
 #navbar-logo {
 	background-color: lightpink;
 }
 
+/* Main menu link styling */
 #navbar-logo, #navbar-menu {
 	background-color: lightpink;
 	font-weight: bold;
 	color: black;
 }
 
-#navbar-logo:hover, #navbar-menu;hover {
+/* Menu link text color */
+.navbar-default .navbar-nav li a {
+	color: black;
+}
+
+/* Menu link text color on hover! */
+.navbar-default .navbar-nav li a:hover {
 	color: hotpink;
-	font-weight: bold;
+	background-color: white;
 }
 
-
-li {
-    display: inline;
-   	color: black;
-}
-
+/* Margin for profile picture in about section */
 .gap-right {
   margin-right: 20px; 
 }
 
+/* Main content and connect section styling */
 #container-content, #connect {
 	border-style: solid;
 	border-width: 1px;
@@ -48,41 +55,68 @@ li {
 	background-color: white;
 }
 
-.navbar-brand, .navbar-nav {
-	background-color: white;
-}
-
+/* Connect Panel */
 .panel-heading, .panel-body {
 	text-align: center;
 }
 
+/* To keep Connect Panel links properly aligned*/
 .contact-images, .panel-body {
 	margin: 10px 0px 10px 0px;
 	padding: 0px;
 }
 
+/* Connect Panel Links */
 a:link, a:visited {
 	color: black;
 	text-decoration: none;
 }
 
+/* Connect Panel Links */
 a:hover {
 	color: hotpink;
 	text-decoration: none;
 }
 
+/* Profile Picture styling */
+#profile-pic {
+	border-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+/* Submit Button styling */
 .btn-secondary {
-	background-color: #FFFFFF;
+	background-color: lightpink;
 	color: black;
 	border-style: solid;
 	border-width: 1px;
 	border-color: black;
 }
 
+/* Submit Button styling on hover! */
 .btn-secondary:hover {
-	background-color: lightpink;
+	background-color: hotpink;
+	color: white;
 }
 
+/* Portfolio image styling */
+.portfolio-image {
+	padding: 0px 10px 0px 10px;
+	position: relative;
+}
+
+/* Portfolio caption (background) - not working as well
+as I'd like; the percentage thing is throwing me since
+the images have padding (otherwise the side spacing looks
+terrible); works well at full page width.
+If I get rid of padding on the portfolio images, I can
+change some things to make them fit properly (splitting
+portfolio images into left/right), but then the images go
+too close to the content window for my liking. This is a
+bit of a double-edged sword but I'm going to leave this
+version because it's closer to what I want this to eventually
+look like, if still a ways off. */
 .fig-caption {
 	width: 93%;
 	margin: 0px 10px 0px 10px;
@@ -96,6 +130,7 @@ a:hover {
 	border-width: 1px;
 }
 
+/* Portfolio caption (background) on hover! */
 .fig-caption:hover {
 	background-color: white;
 	border-style: solid;
@@ -103,26 +138,25 @@ a:hover {
 	border-width: 1px;
 }
 
-.portfolio-image {
-	padding: 0px 10px 0px 10px;
-	position: relative;
-}
-
+/* Portfolio caption text styling */
 .fig-caption h4 {
 	color: #fff;
 	text-align: center;
 }
 
+/* Portfolio caption text styling on hover! */
 .fig-caption h4:hover {
 	color: black;
 }
 
+/* To get rid of super ugly borders */
 .thumbnail {
 	border: none;
 	margin: 0px;
 	padding: 0px;
 }
 
+/* Spacing */
 .row {
 	margin-bottom: 10px;
 }
