@@ -79,6 +79,16 @@ a:hover {
 	bottom: 10px;
 	position: absolute;
 	background-color: black;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
+}
+
+.caption:hover {
+	background-color: white;
+	border-style: solid;
+	border-color: black;
+	border-width: 1px;
 }
 
 .portfolio-image {
@@ -89,6 +99,10 @@ a:hover {
 .caption h4 {
 	color: #fff;
 	text-align: center;
+}
+
+.caption h4:hover {
+	color: black;
 }
 
 .caption-right {
