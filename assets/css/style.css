@@ -1,25 +1,38 @@
+html, body {
+	height: 100%;
+}
+
 body {
 	background-color: lightsalmon;
 }
 
 .navbar {
-	background-color: white;
+	background-color: lightpink;
 	border-style: none;
 	border-bottom-style: solid;
-	border-width: 2px;
+	border-width: 1px;
 	border-color: black;
 }
 
 #navbar-logo {
-	background-color: ;
+	background-color: lightpink;
 }
 
 #navbar-logo, #navbar-menu {
+	background-color: lightpink;
+	font-weight: bold;
+	color: black;
+}
+
+#navbar-logo:hover, #navbar-menu;hover {
+	color: hotpink;
 	font-weight: bold;
 }
 
+
 li {
     display: inline;
+   	color: black;
 }
 
 .gap-right {
@@ -28,23 +41,15 @@ li {
 
 #container-content, #connect {
 	border-style: solid;
-	border-color: ;
+	border-width: 1px;
+	border-color: black;
 	padding: 20px;
 	margin-bottom: 20px;
 	background-color: white;
 }
 
-.footer {
-    position: absolute;
-    width: 100%;
-    height: 60px;
-    background-color: white;
-    margin-top: 60px;
-}
-
 .navbar-brand, .navbar-nav {
 	background-color: white;
-	border-color: ;
 }
 
 .panel-heading, .panel-body {
@@ -62,7 +67,7 @@ a:link, a:visited {
 }
 
 a:hover {
-	color: lightsalmon;
+	color: hotpink;
 	text-decoration: none;
 }
 
@@ -74,17 +79,24 @@ a:hover {
 	border-color: black;
 }
 
-.caption {
-	width: 95%;
+.btn-secondary:hover {
+	background-color: lightpink;
+}
+
+.fig-caption {
+	width: 93%;
+	margin: 0px 10px 0px 10px;
+	left: 0px;
 	bottom: 10px;
 	position: absolute;
 	background-color: black;
-	border-style: solid;
+	border-style-top: solid;
+	border-style-bottom: solid;
 	border-color: black;
 	border-width: 1px;
 }
 
-.caption:hover {
+.fig-caption:hover {
 	background-color: white;
 	border-style: solid;
 	border-color: black;
@@ -92,21 +104,17 @@ a:hover {
 }
 
 .portfolio-image {
-	width: 95%;
-	height: 95%;
+	padding: 0px 10px 0px 10px;
+	position: relative;
 }
 
-.caption h4 {
+.fig-caption h4 {
 	color: #fff;
 	text-align: center;
 }
 
-.caption h4:hover {
+.fig-caption h4:hover {
 	color: black;
-}
-
-.caption-right {
-	left: 5%;
 }
 
 .thumbnail {
@@ -117,4 +125,33 @@ a:hover {
 
 .row {
 	margin-bottom: 10px;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+	min-height: 100%;
+	height: auto;
+	/* Negative indent footer by its height */
+	margin: 0px auto -30px auto;
+	/* Pad bottom by footer height */
+	padding: 0px 0px 30px 0px;
+}
+
+/* Set the fixed height of the footer here; must relate
+to #wrap sizing */
+#footer {
+	height: 30px;
+	background-color: lightpink;
+	border-top-style: solid;
+	border-width: 1px;
+	border-color: black;
+}
+
+/* Text specific to page footer */
+#footer-text {
+	padding: 5px 0px 0px 0px;
+	font-size: 10px;
+	line-height: 14px;
+	text-align: center;
+	font-weight: bold;
 }

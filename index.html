@@ -20,7 +20,11 @@
 </head>
 
 <body>
-    <!-- Navbar! -->
+
+	<!-- Wrap all page content here -->
+	<div id="wrap">
+
+    <!-- Navbar/Header! -->
     <nav class="navbar navbar-default">
         <div class="container">
             <div class="navbar-header">
@@ -34,14 +38,26 @@
         </div>
     </nav>
 
+	<!-- Page Container -->
     <div class="container">
+
+    	<!-- First Container Row -->
         <div class="row">
+
+			<!-- Intentionally Blank Column -->
             <div class="col-lg-1 col-md-1">
-            <!-- Blank -->
             </div>
+
+            <!-- Main Content Container -->
             <div class="col-lg-6 col-md-6" id="container-content">
+
+            	<!-- Section Title -->
                 <legend>About Me</legend>
-                <img class="img-responsive img-rounded gap-right pull-left" id ="profile-pic" src="./assets/images/KG-Profile.jpg" alt="Profile Photo!" width="250" height="324"> 
+
+                <!-- Profile Picture! -->
+                <img class="img-responsive img-rounded gap-right pull-left" id ="profile-pic" src="./assets/images/KG-Profile.jpg" alt="Profile Photo!" width="250" height="324">
+
+                <!-- About Page Text -->
 				<p>Hello! My name is Katie (well, technically it's Katarina) and I live in Durham, North Carolina. I grew up on a farm in northern Maryland (only a half-mile from Pennsylvania!), spent nine years living in Portland, Oregon, and returned to the east coast in early 2014 to see what the South had to offer.</p>
                 
                 <p>I have driven across the country five times, have two Oregon-born cats, and like to spend my free time eating spicy foods and fixing up my house (some photos can be found under the <a href="https://www.instagram.com/explore/tags/cutehouseiscute/" target="_blank">#cutehouseiscute</a> tag on Instagram). Some of my favorite things to do in Durham are to go hiking on the Eno and explore new breweries.</p>
@@ -50,58 +66,80 @@
                 
                 <p>If you'd like to say hello (or if you have a SCOBY you'd like me to take off your hands!), please send me <a href="contact.html">a message</a>.</p>
 
+				<!-- Attempt at a right-aligned blockquote -->
                 <blockquote class="blockquote-reverse">"Ah listen to me young Leander, young Hero, young Alexander. If you dare nothing, then when the day is over, nothing is all you will have gained."
                 - Nehemiah Trot, <em>The Graveyard Book</em> (Neil Gaiman)</blockquote>
 
+			<!-- End Main Content Container -->
             </div>
-            <div class="col-lg-1 col-md-1">
-            <!-- Blank -->
-            </div>
-            <div class="col-lg-3 col-md-3" id="connect">
 
+			<!-- Intentionally Blank Column -->
+            <div class="col-lg-1 col-md-1">
+            </div>
+
+			<!-- Connect Container -->
+            <div class="col-lg-3 col-md-3" id="connect">
+				
+				<!-- Connect Panel Heading -->
                 <div class="panel-heading">Connect with Me!
                 </div>
+				
+				<!-- Connect Panel Content -->
                 <div class="panel-body">
 
+					<!-- GitHub Link -->
                     <a href="https://github.com/katiearina/" target="_blank">
+                    	<!-- GitHub Font Awesome Image -->
                         <span class="fa-stack fa-lg fa-2x">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
+                        	<i class="fa fa-circle fa-stack-2x"></i>
+                        	<i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
                         </span>
                     </a>
 
+					<!-- LinkedIn Link -->
                     <a href="https://www.linkedin.com/in/katie-geckle/" target="_blank">
+                    	<!-- LinkedIn Font Awesome Image -->
                         <span class="fa-stack fa-lg fa-2x">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
+                        	<i class="fa fa-circle fa-stack-2x"></i>
+                    		<i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
                         </span>
-                        </i>
                     </a>
                     
+                    <!-- Stack Overflow Link -->
                     <a href="http://stackoverflow.com/users/7352062/katie-geckle" target="_blank">
+                    	<!-- Stack Overflow Font Awesome Image -->
                         <span class="fa-stack fa-lg fa-2x">
-                        <i class="fa fa-circle fa-stack-2x"></i>
-                        <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
+                        	<i class="fa fa-circle fa-stack-2x"></i>
+                        	<i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
                         </span>
-                        </i>
                     </a>
 
-                </div>
+				<!-- End Connect Panel Content -->
+				</div>
 
+			<!-- End Connect Container -->
             </div>
+
+			<!-- Intentionally Blank Column -->
             <div class="col-lg-1 col-md-1">
-            <!-- Blank -->
             </div>
-        </div>
+            
+		<!-- End First Container Row -->
+		</div>
+
+	<!-- End Page Container -->
+	</div>
+
+    <!-- End Div Wrap -->
+    </div>
+    
+    <!-- Attempt at a sticky footer! -->
+    <div id="footer">
+        <div class="container">
+        <p id="footer-text">&copy; 2017 - Katie Geckle</p>
         </div>
     </div>
 
-    <!-- Attempt at a sticky footer. Likely needs work. -->
-    <footer class="footer">
-        <div class="container">
-            <p class="text-muted">Place sticky footer content here.</p>
-        </div>
-    </footer>
 </body>
 
 </html>

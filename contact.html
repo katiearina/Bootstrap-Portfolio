@@ -20,107 +20,161 @@
 </head>
 
 <body>
-    <!-- Navbar! -->
+
+    <!-- Wrap all page content here -->
+    <div id="wrap">
+
+    <!-- Navbar/Header! -->
     <nav class="navbar navbar-default">
         <div class="container">
+
             <div class="navbar-header">
+            <!-- Logo/Brand (i.e. name) in Header -->
                 <a class="navbar-brand" id="navbar-logo">Katie Geckle</a>
             </div>
+
+            <!-- Navbar menu links -->
             <ul class="nav navbar-nav navbar-right list-inline" id="navbar-menu">
                 <li class="list-inline-item"><a href="index.html">About</a></li>
                 <li class="list-inline-item"><a href="portfolio.html">Portfolio</a></li>
                 <li class="list-inline-item"><a href="contact.html">Contact</a></li>
             </ul>
+
         </div>
     </nav>
 
+    <!-- Page Container -->
     <div class="container">
+
+        <!-- First Container Row -->
         <div class="row">
+
+            <!-- Intentionally Blank Column -->
             <div class="col-lg-1 col-md-1">
-            <!-- Blank -->
             </div>
+
+            <!-- Main Content Container -->
             <div class="col-lg-6 col-md-6" id="container-content">
+
+                <!-- Section Title -->
+                <legend>Contact</legend>
+                
+                <!-- Subcolumn for contact form -->
                 <div class="row">
                 <div class="col-lg-12 col-md-12">
+
+                <!-- Contact Form (Basic Functionality) -->
                 <form class="form-horizontal" action="mailto:katiearina@gmail.com" method="post" enctype="text/plain">
-                <legend>Contact</legend>
+
+                    <!-- Name Field -->
                     <div class="form-group">
                         <p class="col-lg-12 col-md-12">Name</p>
-                        <div class="col-lg-12 col-md-12">
-                            <input type="text" class="form-control" id="name" name="name" placeholder="First & Last Name" value="">
-                        </div>
+                            <div class="col-lg-12 col-md-12">
+                                <input type="text" class="form-control" id="name" name="name" placeholder="Jane Smith" value="">
+                            </div>
                     </div>
+                    
+                    <!-- Email Field -->
                     <div class="form-group">
                         <p class="col-lg-12 col-md-12">Email</p>
-                        <div class="col-lg-12 col-md-12">
-                            <input type="email" class="form-control" id="email" name="email" placeholder="example@domain.com" value="">
-                        </div>
+                            <div class="col-lg-12 col-md-12">
+                                <input type="email" class="form-control" id="email" name="email" placeholder="example@gmail.com" value="">
+                            </div>
                     </div>
+
+                    <!-- Message Field -->
                     <div class="form-group">
                         <p class="col-lg-12 col-md-12">Message</p>
-                        <div class="col-lg-12 col-md-12">
-                            <textarea class="form-control" rows="4" name="message" placeholder="Tell me your favorite Ipsum variation!"></textarea>
-                        </div>
+                            <div class="col-lg-12 col-md-12">
+                                <textarea class="form-control" rows="4" name="message" placeholder="Tell me your favorite Ipsum variation!"></textarea>
+                            </div>
                     </div>
+
+                    <!-- Submit Button -->
                     <div class="form-group">
                         <div class="col-lg-12 col-md-12">
-                            <input id="submit" value="Send" class="btn btn-secondary">
+                            <button type="submit" value="Send" class="btn btn-secondary">Send!
+                            </button>
                         </div>
                     </div>
+
+                <!-- End Contact Form -->
                 </form>
+
+                <!-- End Subcolumn for Contact Form -->
                 </div>
                 </div>
-            </div>
-            <div class="col-lg-1 col-md-1">
-            <!-- Blank -->
+
+            <!-- End Main Content Container -->
             </div>
 
+            <!-- Intentionally Blank Column -->
+            <div class="col-lg-1 col-md-1">
+            </div>
+
+            <!-- Connect Container -->
             <div class="col-lg-3 col-md-3" id="connect">
 
+                <!-- Connect Panel Heading -->
                 <div class="panel-heading">Connect with Me!
                 </div>
-                <div class="panel-body">
 
+                <!-- Connect Panel Content -->
+                <div class="panel-body">
+    
+                    <!-- GitHub Link -->
                     <a href="https://github.com/katiearina/" target="_blank">
+                        <!-- GitHub Font Awesome Image -->
                         <span class="fa-stack fa-lg fa-2x">
                         <i class="fa fa-circle fa-stack-2x"></i>
                         <i class="fa fa-github-alt fa-stack-1x fa-inverse"></i>
                         </span>
                     </a>
 
+                    <!-- LinkedIn Link -->
                     <a href="https://www.linkedin.com/in/katie-geckle/" target="_blank">
+                        <!-- LinkedIn Font Awesome Image -->
                         <span class="fa-stack fa-lg fa-2x">
                         <i class="fa fa-circle fa-stack-2x"></i>
                         <i class="fa fa-linkedin fa-stack-1x fa-inverse"></i>
                         </span>
-                        </i>
                     </a>
                     
+                    <!-- Stack Overflow Link -->
                     <a href="http://stackoverflow.com/users/7352062/katie-geckle" target="_blank">
+                        <!-- Stack Overflow Font Awesome Image -->
                         <span class="fa-stack fa-lg fa-2x">
                         <i class="fa fa-circle fa-stack-2x"></i>
                         <i class="fa fa-stack-overflow fa-stack-1x fa-inverse"></i>
                         </span>
-                        </i>
                     </a>
-                    
+                
+                <!-- End Connect Panel Content -->
                 </div>
 
+            <!-- End Connect Container -->
+            </div>
+            
+            <!-- Intentionally Blank Column -->
+            <div class="col-lg-1 col-md-1">
             </div>
 
-            <div class="col-lg-1 col-md-1">
-            <!-- Blank -->
-            </div>
+        <!-- End First Container Row -->
         </div>
+
+    <!-- End Page Container -->
+    </div>
+
+    <!-- End Div Wrap -->
+    </div>
+    
+    <!-- Attempt at a sticky footer! -->
+    <div id="footer">
+        <div class="container">
+        <p id="footer-text">&copy; 2017 - Katie Geckle</p>
         </div>
     </div>
 
-    <!-- Attempt at a sticky footer. Likely needs work. -->
-    <footer class="footer">
-        <div class="container">
-            <p class="text-muted">Place sticky footer content here.</p>
-        </div>
-    </footer>
 </body>
 
 </html>
